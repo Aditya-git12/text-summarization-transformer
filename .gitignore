@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Hugging Face / ML caches
+.cache/
+cache/
+huggingface_cache/
+.huggingface/
+transformers_cache/
+
+# Dataset/model files
+*.parquet
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Local output
+outputs/
+results/
+logs/
+
+# Secrets
+.env
+*.key
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
